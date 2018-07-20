@@ -1,0 +1,25 @@
+{
+  "name": "re-he-ex",
+  "version": "1.0.0",
+  "description": "template for setting up react front-end, express back-end, and heroku deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js"
+  },
+  "keywords": [],
+  "author": "Reshad",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reshadbinharun/react-express-heroku-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reshadbinharun/react-express-heroku-template/issues"
+  },
+  "homepage": "https://github.com/reshadbinharun/react-express-heroku-template#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "password-generator": "^2.2.0"
+  }
+}
