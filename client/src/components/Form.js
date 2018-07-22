@@ -1,4 +1,6 @@
-class Form extends React.Component {
+import React, { Component } from 'react';
+
+class Form extends Component {
   constructor() {
     super();
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -24,3 +26,5 @@ class Form extends React.Component {
     );
   }
 }
+
+export default Form;
