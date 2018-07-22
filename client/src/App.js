@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Form from '/src/components/Form'
 import './App.css';
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
         {/* Render the passwords if we have them */}
         {passwords.length ? (
           <div>
+          <Form/>
             <h1>5 Passwords.</h1>
             <ul className="passwords">
               {/*
