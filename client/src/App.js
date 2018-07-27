@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Form from './components/Form';
+import FormRes from './components/FormRes';
+
 import './App.css';
 
 class App extends Component {
@@ -27,6 +29,7 @@ class App extends Component {
         {passwords.length ? (
           <div>
           <Form/>
+          <FormRes/>
             <h1>5 Passwords.</h1>
             <ul className="passwords">
               {/*

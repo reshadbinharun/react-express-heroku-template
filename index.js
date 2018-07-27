@@ -57,6 +57,7 @@ app.get('*', (req, res) => {
 
 app.get('/api/todos', function (req, res) {
     // http://mongoosejs.com/docs/api.html#query_Query-find
+    console.log("get route used!");
     Todo.find( function ( err, todos ){
       res.json(200, todos);
     });
@@ -65,6 +66,7 @@ app.get('/api/todos', function (req, res) {
 app.post('/api/todos', function (req, res) {
     var todo = new Todo( req.body );
     todo.id = todo._id;
+    console.log("post route for db used");
     // http://mongoosejs.com/docs/api.html#model_Model-save
     todo.save(function (err) {
       res.json(200, todo);
